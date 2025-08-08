@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?obhkiq');
+  src: url('fonts/icomoon.eot?obhkiq#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?obhkiq') format('truetype'), url('fonts/icomoon.woff?obhkiq') format('woff'), url('fonts/icomoon.svg?obhkiq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-left:before {
+  content: '\e900';
+}
+.icon-arrow-right:before {
+  content: '\e901';
+}
+.icon-star:before {
+  content: '\e902';
+}
+.icon-advanced-techniques:before {
+  content: '\e903';
+}
+.icon-professional-team:before {
+  content: '\e904';
+}
+.icon-user:before {
+  content: '\e905';
+}
+.icon-location:before {
+  content: '\e906';
+}
+.icon-natural-lasting:before {
+  content: '\e907';
+}
+.icon-msg:before {
+  content: '\e908';
+}
+.icon-phone-in-talk:before {
+  content: '\e909';
+}
+.icon-phone:before {
+  content: '\e90a';
+}
+.icon-timing:before {
+  content: '\e90b';
+}
+.icon-write-message:before {
+  content: '\e90c';
+}
+.icon-address:before {
+  content: '\e90d';
+}
+.icon-mail:before {
+  content: '\e90e';
+}
+.icon-Sun_Landing_Icon-12:before {
+  content: '\e90f';
+}
+.icon-Sun_Landing_Icon-13:before {
+  content: '\e910';
+}
+.icon-Sun_Landing_Icon-14:before {
+  content: '\e911';
+}

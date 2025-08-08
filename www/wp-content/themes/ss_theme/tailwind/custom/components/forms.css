@@ -1,0 +1,176 @@
+/* gravity form css start */
+
+.gform_wrapper .gfield_label,
+.gform_wrapper .gform-field-label {
+    @apply text-secondary block mb-1 text-sm lg:text-base;
+}
+
+.gform_wrapper .gfield--width-half {
+    @apply sm:basis-2/4 px-[8px] sm:max-w-[50%];
+}
+
+.gform_wrapper input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
+.gform_wrapper select,
+.gform_wrapper textarea {
+    @apply h-[2.75rem] lg:h-[54px] bg-white border border-black/20 border-solid text-black/60 lg:text-base text-sm w-full py-3 px-5 outline-none focus:border-black focus:text-black appearance-none resize-none rounded-[10px] pr-[2.25rem];
+}
+
+.gform_wrapper input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):placeholder,
+.gform_wrapper textarea:placeholder {
+    @apply 
+ block 
+  w-full 
+  h-14 
+  lg:h-[60px] 
+  px-4
+  py-[15px] 
+  lg:pl-4 
+  xl:pl-6 
+  pr-[2.45rem]
+  font-base 
+  font-normal 
+  text-base 
+  leading-[1.875] 
+  text-black 
+  bg-white 
+  bg-clip-padding 
+  border 
+  border-secondary-200 
+  rounded-[10px]
+  placeholder:text-black/30 
+  transition 
+  ease-in-out 
+  duration-500 
+  focus:text-black 
+  focus:border-primary 
+  focus:outline-none 
+  focus:shadow-lg;
+}
+
+.gform_wrapper textarea {
+    @apply h-[130px];
+}
+
+.gform_heading {
+    @apply hidden;
+}
+
+.gform_wrapper .gform_fields {
+    @apply flex flex-wrap -mx-4;
+}
+
+.gform_wrapper .gfield {
+    @apply w-full md:w-1/2 px-4 mb-3 lg:mb-5 relative;
+}
+
+.gform_wrapper .ginput_container--name {
+    @apply flex flex-wrap -mx-4;
+}
+
+.gform_wrapper .gfield.gfield--type-name {
+    @apply mb-0;
+}
+
+.gform_wrapper .name_first,
+.gform_wrapper .name_last {
+    @apply w-full md:w-1/2 px-4 mb-3 lg:mb-5;
+}
+
+.hidden_label .gfield_label {
+    @apply hidden;
+}
+
+.gform_wrapper .gfield.gfield--type-name,
+.gform_wrapper .gfield.gfield--type-address,
+.gform_wrapper .gfield.gfield--type-textarea {
+    @apply md:w-full;
+}
+
+.gform_footer {
+    @apply relative md:mt-3 [&_.gform\_button]:!pr-[2rem] block;
+}
+
+.gform_wrapper .gform_button {
+    @apply block w-full btn btn-primary transition-all;
+}
+
+
+.gform_wrapper .gform_submission_error {
+    @apply text-danger text-[1.2rem] lg:text-[1.5rem];
+}
+
+.gform_wrapper .validation_message {
+    @apply text-danger;
+}
+
+.gform_confirmation_message {
+    @apply inline-block bg-black leading-[1.5] p-4 border border-solid border-white text-[1rem] text-white lg:text-lg lg:py-6 lg:px-4 text-center font-medium w-full rounded-xl;
+}
+
+.gform_validation_errors {
+    @apply mb-5;
+}
+
+.gform_validation_errors .validation_error {
+    @apply border border-solid border-danger bg-danger text-white font-medium p-4 mb-4 sm:mb-8 text-center [&_p:last-of-type]:mb-0;
+}
+
+.gform_validation_errors ol {
+    @apply hidden;
+}
+
+.gform_validation_errors .gform_submission_error {
+    @apply inline-block leading-[1.4] text-base text-white font-semibold bg-danger p-4 mb-0 w-full lg:text-lg rounded-md focus:border-0 text-center;
+}
+
+.gform_required_legend {
+    @apply hidden;
+}
+
+.gfield_error input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]),
+.gform_body .gfield_error select,
+.gform_body .gfield_error textarea {
+    @apply !border-danger;
+}
+
+.custom-upload.gfield_error .gfield_label {
+    @apply border-danger text-danger;
+}
+
+.gform_body .validation_message {
+    @apply hidden text-base;
+}
+
+.gform_ajax_spinner {
+    @apply absolute top-2/4 -translate-y-2/4 right-3 !block;
+}
+
+.subscribe-form {
+  @apply max-md:[&_.form-control]:text-sm [&_form]:flex [&_form]:gap-3 [&_form]:items-center [&_.gform-body]:flex-1 [&_.gfield]:mb-0 [&_.gfield]:w-full [&_.gform\_fields]:mx-0 [&_.gfield]:p-0;
+}
+
+.subscribe-form .gform_footer {
+    @apply mt-0  max-md:[&_.gform\_button]:text-sm;
+}
+
+.subscribe-form .gform_wrapper .gfield input {
+    @apply !border-transparent;
+}
+
+.gform_wrapper .gfield:before {
+ @apply bottom-[15px] lg:bottom-[18px] right-[35px] absolute text-ss-green;
+}
+
+.gform_wrapper .gfield.gfield--type-textarea:before {
+    @apply bottom-auto top-[46px];
+}
+
+.gform_wrapper .gfield .name_first,
+.gform_wrapper .gfield .name_last {
+    @apply relative;
+}
+
+.gform_wrapper .gfield .name_first:before,
+.gform_wrapper .gfield .name_last:before {
+    @apply font-icomoon content-['\e905'] bottom-[10px] lg:bottom-[14px] right-[35px] absolute text-ss-green
+} 

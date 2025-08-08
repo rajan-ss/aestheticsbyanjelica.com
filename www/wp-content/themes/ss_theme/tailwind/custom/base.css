@@ -1,0 +1,86 @@
+/**
+ * Custom styles to immediately follow Tailwind’s `base` layer
+ *
+ * “Add things like base typography styles [or] opinionated global resets.”
+ *
+ * — from https://tailwindcss.com/docs/plugins#adding-base-styles
+ */
+
+/**
+ * This uses the background and foreground colors declared in the
+ * `theme.json` file and is applied both to the frontend and in the block
+ * editor.
+*/
+html,
+body {
+	@apply h-full w-full;
+}
+
+body {
+	@apply min-w-[320px] font-base font-normal antialiased text-base lg:text-lg text-black;
+}
+
+p {
+	@apply mb-4;
+}
+
+a {
+	@apply text-primary no-underline transition-all hover:text-primary/50 focus:text-primary/50;
+}
+
+picture {
+	@apply block;
+}
+
+.site-content {
+	@apply grow;
+}
+
+.site-header,
+.site-content,
+.site-footer {
+	@apply shrink-0;
+}
+
+.site-wrapper {
+	@apply min-w-[20rem] mx-auto my-0 flex min-h-full relative overflow-hidden items-stretch flex-col;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply font-bold leading-tight mb-2;
+}
+
+h1,
+.h1 {
+	@apply text-[28px] lg:text-4xl xl:text-[56px] !leading-[1.25] font-semibold;
+}
+
+h2,
+.h2 {
+	@apply text-[26px] lg:text-5xl font-semibold;
+}
+
+h3,
+.h3 {
+	@apply text-2xl lg:text-[40px] leading-[100%];
+}
+
+h4,
+.h4 {
+	@apply text-xl lg:text-xl;
+}
+
+h5,
+.h5 {
+	@apply text-lg;
+}
+
+h6,
+.h6 {
+	@apply text-base;
+}
