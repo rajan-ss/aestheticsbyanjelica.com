@@ -2,7 +2,7 @@
 
 .gform_wrapper .gfield_label,
 .gform_wrapper .gform-field-label {
-    @apply text-secondary block mb-1 text-sm lg:text-base;
+    @apply text-secondary block mb-1 text-sm lg:text-base font-base;
 }
 
 .gform_wrapper .gfield--width-half {
@@ -174,3 +174,8 @@
 .gform_wrapper .gfield .name_last:before {
     @apply font-icomoon content-['\e905'] bottom-[10px] lg:bottom-[14px] right-[35px] absolute text-ss-green
 } 
+
+.gform_wrapper .gfield input,
+.gform_wrapper .gfield textarea {
+    @apply font-base;
+}

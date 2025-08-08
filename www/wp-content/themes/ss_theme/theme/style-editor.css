@@ -1197,6 +1197,7 @@ h6,
 .gform_wrapper .gform-field-label {
   margin-bottom: 0.25rem;
   display: block;
+  font-family: Poppins, sans-serif;
   font-size: 0.875rem;
   line-height: 1.25rem;
   --tw-text-opacity: 1;
@@ -1759,6 +1760,11 @@ h6,
 .gform_wrapper .gfield .name_last:before {
     bottom: 14px;
   }
+}
+
+.gform_wrapper .gfield input,
+.gform_wrapper .gfield textarea {
+  font-family: Poppins, sans-serif;
 }
 
 /**
