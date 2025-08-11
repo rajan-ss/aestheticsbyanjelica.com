@@ -84,3 +84,9 @@ h6,
 .h6 {
 	@apply text-base;
 }
+
+.page-content > *, .entry-content > *,
+.page-title, .entry-title {
+	@apply
+	!max-w-full;
+}

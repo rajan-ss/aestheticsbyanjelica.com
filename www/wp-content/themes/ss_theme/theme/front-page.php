@@ -18,17 +18,8 @@ get_header();
 <main class="site-content">
 
 	<!-- Section hero banner starts here...} -->
-	<section class="bg-cover bg-center bg-no-repeat w-full pt-8 lg:pt-9 pb-16 sm:pb-20 md:pb-24 lg:pb-28 xl:pb-32" style="background-image: url('<?php echo get_home_url(); ?>/wp-content/uploads/hero-banner-bg-img.webp');">
+	<section class="bg-cover bg-center bg-no-repeat w-full pt-44 md:pt-52 lg:pt-64 pb-16 sm:pb-20 md:pb-24 lg:pb-28 xl:pb-32" style="background-image: url('<?php echo get_home_url(); ?>/wp-content/uploads/hero-banner-bg-img.webp');">
 		<div class="container">
-			<div class="flex flex-wrap max-md:flex-col mb-10 sm:mb-12 md:mb-16 lg:mb-20 xl:mb-24 justify-between items-center">
-				<figure class="mb-0 max-md:max-w-40">
-					<img src="<?php echo get_home_url(); ?>/wp-content/uploads/medical-aesthetics-logo.png" alt="Medical Aesthetics logo" width="198" height="68" loading="lazy" class="w-full">
-				</figure>
-				<div class="btn-wrap max-md:hidden [&_a]:py-4 [&_a]:pl-5 [&_a]:pr-14">
-					<a href="https://booking.mangomint.com/204646" class="btn btn-primary text-base md:text-lg lg:text-xl before:content-['\e901'] before:right-4">Book Appointment</a>
-				</div>
-			</div>
-
 			<div class="lg:max-w-[980px] lg:mx-auto text-center [&_h1]:mb-3.5 [&_h1]:text-secondary">
 				<h1>
 					Enhance Your <span class="text-primary">Natural Beauty</span>-Book <span class="text-primary">Expert Aesthetic</span> Care Today
@@ -69,7 +60,7 @@ get_header();
 						<div class="w-full md:w-[calc(50%-12px)] border rounded-[20px] border-[#E8E6E6]">
 							<article class="p-4 sm:p-6 lg:p-7 xl:p-[30px]">
 								<div class="text-[52px] lg:text-[64px] mb-4 lg:mb-5">
-									<i class="icon-natural-lasting "></i>
+									<i class="icon-natural-lasting"></i>
 								</div>
 
 								<div class="mb-2 md:mb-3">
@@ -158,87 +149,114 @@ get_header();
 			<!-- Swiper -->
 			<div class="swiper services-slider">
 				<div class="swiper-wrapper">
-					<div class="swiper-slide bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300">
+					<div class="swiper-slide h-auto">
+						<div class="bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300 h-full">
 						<div class="mb-6">
-							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/service-img-1.png" alt="Service images" width="367" height="221" loading="lazy">
+							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/iv-therapies.jpg" alt="Service images" width="367" height="221" loading="lazy">
 						</div>
 						<div class="[&_h3]:mb-3 lg:px-3 [&_p]:text-[14px]">
 							<h3 class="text-xl font-medium">IV Therapies</h3>
 							<p>Rapidly replenish fluids, vitamins, and nutrients with IV therapy. Ideal for hydration, energy, immune support, and recovery, this treatment delivers essential ingredients directly into your bloodstream for fast, effective results when you're feeling depleted or need a wellness boost.</p>
 						</div>
-					</div> <!-- /.swiper-slide 01 -->
-					<div class="swiper-slide bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300">
+						</div>
+					</div>
+					<!-- /.swiper-slide 01 -->
+					<div class="swiper-slide h-auto">
+						<div class="bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300 h-full">
 						<div class="mb-6">
-							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/service-img-2.png" alt="Service image" width="367" height="221" loading="lazy">
+							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/injections.jpg" alt="Service image" width="367" height="221" loading="lazy">
 						</div>
 						<div class="[&_h3]:mb-3 lg:px-3 [&_p]:text-[14px]">
 							<h3 class="text-xl font-medium">Injections</h3>
 							<p>Quick, powerful vitamin and amino acid injections support immunity, fat burning, workout recovery, and more. These intramuscular shots deliver targeted nutrients in minutes to help you feel energized, balanced, and refreshed.</p>
 						</div>
-					</div> <!-- /.swiper-slide 02  -->
-					<div class="swiper-slide bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300">
+						</div>
+					</div>
+					<!-- /.swiper-slide 02  -->
+					<div class="swiper-slide h-auto">
+						<div class="bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300 h-full">
 						<div class="mb-6">
-							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/service-img-3.png" alt="Service image" width="367" height="221" loading="lazy">
+							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/peptides.jpg" alt="Service image" width="367" height="221" loading="lazy">
 						</div>
 						<div class="[&_h3]:mb-3 lg:px-3 [&_p]:text-[14px]">
 							<h3 class="text-xl font-medium">Peptides</h3>
 							<p>Peptide therapy uses specialized amino acids to support healing, metabolism, hormone balance, sleep, and muscle growth. Tailored to your goals, it enhances overall wellness, recovery, and performance from the inside out.</p>
 						</div>
-					</div> <!-- /.swiper-slide 03  -->
-					<div class="swiper-slide bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300">
+						</div>
+					</div>
+					<!-- /.swiper-slide 03  -->
+					<div class="swiper-slide h-auto">
+						<div class=" bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300 h-full">
 						<div class="mb-6">
-							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/service-img-1.png" alt="Service image" width="367" height="221" loading="lazy">
+							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/anabolic-steroids.jpg" alt="Service image" width="367" height="221" loading="lazy">
 						</div>
 						<div class="[&_h3]:mb-3 lg:px-3 [&_p]:text-[14px]">
 							<h3 class="text-xl font-medium">Anabolic Steroids</h3>
 							<p>Boost muscle growth, endurance, and recovery with medically supervised anabolic steroid treatments. Ideal for low testosterone, bulking, or cutting phases, these therapies are dosed for safety, performance, and long-term results.</p>
 						</div>
-					</div> <!-- /.swiper-slide 04 -->
-					<div class="swiper-slide bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300">
+						</div>
+					</div>
+					<!-- /.swiper-slide 04 -->
+					<div class="swiper-slide h-auto">
+						<div class="bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300 h-full">
 						<div class="mb-6">
-							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/service-img-1.png" alt="Service image" width="367" height="221" loading="lazy">
+							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/sexual-wellness.jpg" alt="Service image" width="367" height="221" loading="lazy">
 						</div>
 						<div class="[&_h3]:mb-3 lg:px-3 [&_p]:text-[14px]">
 							<h3 class="text-xl font-medium">Sexual Wellness</h3>
 							<p>Restore confidence, intimacy, and function with personalized sexual wellness treatments. Options include hormone therapy, PRP procedures, and performance boosters designed to enhance pleasure and vitality at any stage of life.</p>
 						</div>
-					</div> <!-- /.swiper-slide 05 -->
-					<div class="swiper-slide bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300">
+						</div>
+					</div>
+					<!-- /.swiper-slide 05 -->
+					<div class="swiper-slide h-auto">
+						<div class=" bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300 h-full">
 						<div class="mb-6">
-							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/service-img-1.png" alt="Service image" width="367" height="221" loading="lazy">
+							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/medical-weight-loss.jpg" alt="Service image" width="367" height="221" loading="lazy">
 						</div>
 						<div class="[&_h3]:mb-3 lg:px-3 [&_p]:text-[14px]">
 							<h3 class="text-xl font-medium">Medical Weight Loss</h3>
 							<p>Achieve lasting fat loss with customized, medically guided weight loss programs. We combine proven treatments and expert support to help control cravings, improve metabolism, and reach your goals safely and sustainably.</p>
 						</div>
-					</div> <!-- /.swiper-slide 06 -->
-					<div class="swiper-slide bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300">
+						</div>
+					</div>
+					<!-- /.swiper-slide 06 -->
+					<div class="swiper-slide h-auto">
+						<div class=" bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300 h-full">
 						<div class="mb-6">
-							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/service-img-1.png" alt="Service image" width="367" height="221" loading="lazy">
+							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/skin-treatments.jpg" alt="Service image" width="367" height="221" loading="lazy">
 						</div>
 						<div class="[&_h3]:mb-3 lg:px-3 [&_p]:text-[14px]">
 							<h3 class="text-xl font-medium">Skin Treatments</h3>
 							<p>Rejuvenate and refresh your skin with targeted treatments like facials and microneedling. Improve tone, texture, and clarity while addressing acne, fine lines, and dullness for a radiant, healthy glow.</p>
 						</div>
-					</div> <!-- /.swiper-slide 07 -->
-					<div class="swiper-slide bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300">
+						</div>
+					</div>
+					<!-- /.swiper-slide 07 -->
+					<div class="swiper-slide h-auto">
+						<div class="bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300 h-full">
 						<div class="mb-6">
-							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/service-img-1.png" alt="Service image" width="367" height="221" loading="lazy">
+							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/botox-and-fillers.jpg" alt="Service image" width="367" height="221" loading="lazy">
 						</div>
 						<div class="[&_h3]:mb-3 lg:px-3 [&_p]:text-[14px]">
 							<h3 class="text-xl font-medium">Botox and Fillers</h3>
 							<p>Smooth wrinkles, restore volume, and enhance facial features with Botox and dermal fillers. Our precise techniques deliver natural-looking results—whether you want subtle refreshment or a more sculpted, youthful appearance.</p>
 						</div>
-					</div> <!-- /.swiper-slide 08 -->
-					<div class="swiper-slide bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300">
+						</div>
+					</div>
+					<!-- /.swiper-slide 08 -->
+					<div class="swiper-slide h-auto">
+						<div class="bg-white border rounded-[20px] p-3 hover:shadow-[0_10px_34px_0_rgba(0,201,169,0.2)] transition-shadow duration-300 h-full">
 						<div class="mb-6">
-							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/service-img-1.png" alt="Service image" width="367" height="221" loading="lazy">
+							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/bio-fillers-prf.jpg" alt="Service image" width="367" height="221" loading="lazy">
 						</div>
 						<div class="[&_h3]:mb-3 lg:px-3 [&_p]:text-[14px]">
 							<h3 class="text-xl font-medium">Bio-Fillers (PRF)</h3>
 							<p>Bio-fillers use your body’s own PRF to restore volume, smooth lines, and stimulate collagen. Ideal for under-eyes and smile lines, these natural treatments improve skin tone and texture over time.</p>
 						</div>
-					</div> <!-- /.swiper-slide 09 -->
+						</div>
+					</div>
+					<!-- /.swiper-slide 09 -->
 				</div>
 				<div class="flex justify-center pt-8 lg:pt-10 gap-3">
 					<button class="swiper-button-prev group">
@@ -274,8 +292,9 @@ get_header();
 							<span class="block text-lg lg:text-xl font-base font-semibold text-secondary-100 border-secondary border-[2px] px-4 lg:px-6 py-2 lg:py-2.5">About Us</span>
 						</div>
 						<h2 class="text-secondary-100 mb-4 lg:mb-5 text-3xl lg:text-4xl xl:text-[40px]">Our Story <span class="text-primary">& Mission</span></h2>
-						<p>At Medical Aesthetics by Anjelica, our mission is to help you feel empowered in your skin by delivering medical-grade aesthetic care with integrity, empathy, and expertise. We believe in enhancing what makes you uniquely beautiful, not changing it. Our treatments are designed to support natural-looking, confidence-boosting results that align with your personal goals.</p>
-						<p>Rooted in a passion for health, wellness, and aesthetics, we approach every client relationship with care, education, and transparency. From your first consultation to your final results, we are here to guide and support you with professionalism and a genuine commitment to your well-being.</p>
+						<p><strong>Medical Aesthetics by Anjelica</strong> was born from personal transformation. After experiencing firsthand the life-changing impact of medical aesthetics, our founder set out to share that same joy with others. Named after his daughter, our clinic is rooted in a passion for health, wellness, and the belief that everyone deserves to feel their best.
+</p>
+						<p>Our mission is to help you feel empowered in your skin by delivering medical-grade aesthetic care with integrity, empathy, and expertise. In partnership with trusted, top-tier medical professionals with decades of experience, we provide personalized treatments designed to enhance your natural beauty while fostering lasting confidence. From your first consultation to your final results, we guide and support you with professionalism, personalization, and a genuine commitment to your well-being.</p>
 					</header>
 
 					<div class="btn-wrap">
@@ -399,7 +418,7 @@ get_header();
 									</a>
 									<div class="flex-1 [&_span]:transition-all [&_span]:duration-300 pl-3 lg:pl-4 xl:pl-5">
 										<span class="text-black/70 text-base leading-loose block">Geographic Target Area</span>
-										<span class="text-secondary-100 lg:text-lg lg:leading-7 font-semibold group-hover:text-primary">3425 Highway 6th sugarland Tx, 77478</span>
+										<span class="text-secondary-100 lg:text-lg lg:leading-7 font-semibold group-hover:text-primary">3425 Highway 6, Suite #109, Sugar Land, TX 77478</span>
 									</div>
 								</div>
 							</li>

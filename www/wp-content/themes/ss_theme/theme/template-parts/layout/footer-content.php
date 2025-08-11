@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template part for displaying the footer content
  *
@@ -13,19 +14,7 @@
 
 <footer class="site-footer bg-[radial-gradient(ellipse_438.22%_438.22%_at_50.00%_50.00%,_rgba(0,_0,_0,_0.90)_0%,_rgba(17.55,_0,_9.13,_0.90)_24%,_rgba(0,_201,_169,_0.90)_41%)] pt-12 lg:pt-[60px] [&_p]:text-base">
   <div class="container">
-    <div class="mb-8 lg:mb-12 border-b border-white/15 md:flex justify-between gap-6">
-      <div class="mb-6 sm:mb-8 lg:mb-12 xl:mb-[60px] [&_h2]:text-white [&_span]:text-primary [&_p]:text-white/70 lg:w-1/3">
-        <h2 class="text-3xl lg:text-4xl xl:text-[40px] mb-3 lg:mb-4">Stay <span>Informed</span></h2>
-        <p>Sign up for our newsletter</p>
-      </div>
-      <div class="subscribe-form max-w-[698px] flex-1">
-        <div class="form-block [&_form]:bg-white [&_form]:rounded-2xl [&_form]:p-1">
-          <?php echo gravity_form(2, true, true, false, null, true); ?>
-        </div>
-      </div>
-    </div>
-
-    <div class="flex flex-wrap gap-y-6 items-center mb-6 sm:mb-8 lg:mb-12 xl:mb-[52px] [&_p]:text-white [&_p]:leading-normal [&_p]:m-0 [&_h4]:text-white [&_h4]:mb-5 -mx-4">
+    <div class="flex flex-wrap gap-y-6 mb-6 sm:mb-8 lg:mb-12 xl:mb-[52px] [&_p]:text-white [&_p]:leading-normal [&_p]:m-0 [&_h4]:text-white [&_h4]:mb-5 -mx-4">
 
       <div class=" w-full md:w-1/2 lg:w-2/5 px-4">
         <div class="[&_p]:text-white/70">
@@ -39,17 +28,21 @@
       <div class="w-full md:w-1/2 lg:w-2/5 px-4">
         <div class="[&_h3]:text-lg [&_h3]:text-white [&_h3]:mb-4 lg:[&_h3]:mb-5">
           <h3>Contact Us</h3>
-          <ul class="[&_li]:block [&_li]:mb-1.5 last:[&_li]:mb-0 [&_span]:text-base [&_span]:font-semibold [&_span]:text-ss-light-gray-100 [&_a]:text-sm [&_a]:text-inherit">
+          <ul class="footer-contact [&_li]:block [&_li]:mb-1.5 last:[&_li]:mb-0 [&_span]:text-base [&_span]:font-semibold [&_span]:text-ss-light-gray-100 [&_a]:text-sm [&_a]:font-normal [&_a]:text-inherit">
             <li>
-              <span class="relative hover:text-primary">Phone: <a class="stretch-link" href="tel:8329399330">(832) 9399-330</a></span>
+              <span class="relative hover:text-primary">Phone:
+                <a href="tel:8329399330" class="stretch-link">(832) 9399-330</a></span>
             </li>
 
             <li>
-              <span class="relative hover:text-primary">Email: <a href="mailto:info@aestheticsbyanjelica.com">info@aestheticsbyanjelica.com</a></span>
+              <span class="relative hover:text-primary">Email:
+                <a href="mailto:info@aestheticsbyanjelica.com" class="stretch-link">info@aestheticsbyanjelica.com</a></span>
             </li>
 
             <li>
-              <span class="relative hover:text-primary">Address: <a href="https://maps.app.goo.gl/QnNxkBjBsnvukR9K6" target="_blank">3425 Highway 6th sugarland Tx, 77478</a> </span>
+              <span class="relative hover:text-primary">Address:
+                <a href="https://maps.app.goo.gl/QnNxkBjBsnvukR9K6" class="stretch-link" target="_blank">3425 Highway 6, Suite #109, Sugar Land, TX 77478</a>
+              </span>
             </li>
           </ul>
         </div>
@@ -96,11 +89,10 @@
     <hr class="border-[#FFFFFF29]">
 
     <div class="max-md:text-sm flex flex-wrap gap-y-4 max-md:text-center justify-center md:justify-between [&_p]:text-sm text-white/70 py-4 lg:py-5 [&_p]:mb-0">
-      <p>Copyright &copy; <?php echo date('Y');?> Medical Aesthetics By Anjelica • All rights reserved</p>
-      <!-- <div class="flex flex-wrap gap-4 sm:gap-6 lg:gap-8 xl:gap-x-12 [&_a]:text-white [&_a]:text-base">
-        <span class="text-ss-light-gray-100 hover:text-primary">Terms and Conditions</span>
-        <span class="text-ss-light-gray-100 hover:text-primary">Privacy Policy</span>
-      </div> -->
+      <p>Copyright &copy; <?php echo date('Y'); ?> Medical Aesthetics By Anjelica • All rights reserved</p>
+      <div class="flex flex-wrap gap-4 sm:gap-6 lg:gap-8 xl:gap-x-12 [&_a]:text-white [&_a]:text-base">
+        <a href="/privacy-policy/" class="text-ss-light-gray-100 hover:text-primary">Privacy Policy</a>
+      </div>
     </div>
   </div>
 </footer>

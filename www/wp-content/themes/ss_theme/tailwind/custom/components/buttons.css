@@ -3,14 +3,15 @@
     @apply inline-flex 
 		items-center 
 		justify-center 
-		cursor-pointer 
+		cursor-pointer
+    lg:h-[60px] 
 		px-8 
 		py-[18px] 
 		text-xl 
 		lg:text-lg 
 		text-center 
 		!leading-none 
-		font-normal 
+		font-semibold 
 		no-underline 
 		select-none 
 		border 

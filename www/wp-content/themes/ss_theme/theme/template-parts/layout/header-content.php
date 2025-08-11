@@ -11,28 +11,28 @@
 ?>
 
 <!-- Header - starts -->
-<header class="site-header bg-secondary py-3 lg:py-4 xl:py-[17px]">
-	<div class="container">
-		<!-- <p>Header Goes Here...</p> -->
-		<div class="flex justify-center sm:justify-between flex-wrap w-full items-center max-sm:flex-col">
-			<ul class="flex flex-wrap justify-center items-center gap-y-1.5 gap-x-2 md:gap-x-6 md:gap-7 mb-0 sm:mb-0">
-				<li>
-					<div class="relative flex gap-2 lg:gap-2.5 items-center">
-						<i class="icon-phone-in-talk text-primary"></i>
-						<a href="tel:8329399330" class="text-white font-medium text-base leading-normal stretch-link hover:text-primary"><span class="max-md:hidden">(832) 9399-330</span></a>
-					</div>
-				</li>
-				<li>
-					<div class="relative flex gap-2 lg:gap-2.5 items-center">
-						<i class=" icon-msg text-primary"></i>
-						<a href="mailto:info@aestheticsbyanjelica.com" class="text-white font-medium text-base leading-normal stretch-link hover:text-primary"><span class="max-md:hidden">info@aestheticsbyanjelica.com</span></a>
-					</div>
+<header class="site-header absolute top-0 left-0 right-0">
+  <div class="bg-secondary py-3 lg:py-4 xl:py-[17px]">
+    <div class="container">
+      <div class="flex justify-center md:justify-between flex-wrap w-full items-center max-sm:flex-col">
+        <ul class="flex flex-wrap justify-center items-center gap-y-1.5 gap-x-2 md:gap-x-6 md:gap-7 mb-0 sm:mb-0">
+          <li>
+            <div class="relative flex gap-2 lg:gap-2.5 items-center">
+              <i class="icon-phone-in-talk text-primary"></i>
+              <a href="tel:8329399330" class="text-white font-medium text-base leading-normal stretch-link hover:text-primary"><span class="max-md:hidden">(832) 9399-330</span></a>
+            </div>
+          </li>
+          <li>
+            <div class="relative flex gap-2 lg:gap-2.5 items-center">
+              <i class=" icon-msg text-primary"></i>
+              <a href="mailto:info@aestheticsbyanjelica.com" class="text-white font-medium text-base leading-normal stretch-link hover:text-primary"><span class="max-md:hidden">info@aestheticsbyanjelica.com</span></a>
+            </div>
 
-				</li>
-			</ul>
+          </li>
+        </ul>
 
-			<!-- Socia media -->
-			<!-- <ul class="social-links flex items-center gap-3 lg:gap-4">
+        <!-- Socia media -->
+        <!-- <ul class="social-links flex items-center gap-3 lg:gap-4">
             <li>
               <a href="#" target="_blank" class="hover:[&_svg]:[&_path]:fill-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
@@ -62,6 +62,28 @@
               </a>
             </li>
           </ul> -->
-		</div>
-	</div>
+      </div>
+    </div>
+  </div>
+  <!-- /Top Header -->
+
+  <div class="container pt-7 lg:pt-9">
+    <div class="flex flex-wrap max-md:flex-col justify-between items-center">
+      <figure class="mb-0 max-w-[198px] relative">
+        <img src="<?php echo get_home_url(); ?>/wp-content/uploads/Logo-MA.png" alt="Medical Aesthetics logo" width="198" height="68" loading="lazy" class="w-full">
+        <a href="/" class="stretch-link"></a>
+      </figure>
+      <div class="btn-wrap max-md:hidden [&_a]:py-2 [&_a]:pl-5 [&_a]:pr-14 [&_a]:h-12 [&_a]:rounded-[13px]">
+        <a href="https://booking.mangomint.com/204646" class="btn btn-primary text-base md:text-lg lg:text-xl before:content-['\e901'] before:right-4 before:w-6 before:h-6 before:text-xs">Book Appointment</a>
+      </div>
+    </div>
+  </div>
+  <!-- Bottom Header -->
 </header>
+
+<!-- Other Pages Banner -->
+<?php if (!is_front_page()): ?>
+  <div class="pt-[164px] md:pt-[176px] lg:pt-[198px] bg-cover bg-no-repeat bg-center" style="background-image: url('<?php echo site_url(); ?>/wp-content/uploads/hero-banner-bg-img.webp');">
+    <!-- Add Content and Breadcrumb if needed  for other page only (not Front Page) -->
+  </div>
+<?php endif; ?>
