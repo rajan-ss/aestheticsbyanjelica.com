@@ -1,6 +1,6 @@
 @layer components {
-  .btn {
-    @apply inline-flex 
+	.btn {
+		@apply inline-flex 
 		items-center 
 		justify-center 
 		cursor-pointer
@@ -26,10 +26,10 @@
 		focus:ring-opacity-50 
 		disabled:opacity-75 
 		disabled:cursor-not-allowed;
-  }
+	}
 
-  .btn-primary {
-    @apply bg-secondary-100 
+	.btn-primary {
+		@apply bg-secondary-100 
     text-white 
     border-secondary-100 
     hover:bg-transparent
@@ -41,25 +41,24 @@
     focus:ring-secondary-100/75
     active:bg-secondary-100/50 
     active:border-secondary-100/50
-	pr-[73px]
-	relative;
-  }
+    pr-[73px]
+    relative
+    before:absolute
+    before:content-['\e901']
+    before:font-icomoon
+    before:bg-ss-light-green-200/[0.39]
+    before:flex
+    before:items-center
+    before:justify-center
+    before:rounded-full
+    before:size-[30px]
+    before:font-normal
+    before:text-sm
+    before:right-8;
+	}
 
-  .btn-primary::before {
-    content: '\e901';
-    @apply absolute
-	font-icomoon
-  bg-[#FFFFFF5E]
-  flex
-  items-center
-  justify-center
-  rounded-full
-  size-[30px]
-	right-8;
-  }
-
-  .btn-secondary {
-    @apply bg-secondary-100 
+	.btn-secondary {
+		@apply bg-secondary-100 
     text-white 
     border-secondary-100 
     hover:bg-transparent
@@ -71,13 +70,13 @@
     focus:ring-secondary-100/75
     active:bg-secondary-100/50 
     active:border-secondary-100/50;
-  }
+	}
 
-  .btn-block {
-    @apply block w-full;
-  }
+	.btn-block {
+		@apply block w-full;
+	}
 }
 
 .btn-small-icon::before {
-  @apply w-[20px] h-[20px];
+	@apply w-[20px] h-[20px];
 }

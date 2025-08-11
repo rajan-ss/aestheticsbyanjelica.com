@@ -42,6 +42,7 @@ module.exports = {
 				'ss-light-green': {
 					DEFAULT: '#F0FCFA',
 					100: '#F9FFFE',
+					200: '#E9EFF5'
 				},
 			},
 			screens: {
